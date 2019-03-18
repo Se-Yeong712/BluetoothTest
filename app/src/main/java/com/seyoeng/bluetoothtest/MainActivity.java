@@ -1,7 +1,6 @@
 package com.seyoeng.bluetoothtest;
 
 import android.app.Activity;
-import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -105,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
                 bt.setupService();
                 bt.startService(BluetoothState.DEVICE_OTHER);
                 setup();
-            } else {''
+            } else {
                 Toast.makeText(getApplicationContext()
                         , "Bluetooth was not enabled."
                         , Toast.LENGTH_SHORT).show();
