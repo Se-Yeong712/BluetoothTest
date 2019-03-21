@@ -156,7 +156,7 @@ public class MainActivity extends AppCompatActivity
         @Override
         protected void onPostExecute(Boolean isSucess) {
 
-            if ( isSucess ) {
+            if (isSucess) {
                 connected(mBluetoothSocket);
             }
             else{
